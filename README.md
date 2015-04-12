@@ -17,7 +17,7 @@ MXMongoosed is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "MXMongoosed"
+pod "MXMongoosed", :git => "https://github.com/wuxingyu1983/MXMongoosed.git"
 ```
 
 ## Author
