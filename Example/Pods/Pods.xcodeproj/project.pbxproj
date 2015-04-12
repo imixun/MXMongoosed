@@ -10,9 +10,8 @@
 		464DB9ACBA98477EF7FD5A46 /* Pods-MXMongoosed-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5193F389C9046A58366E5203 /* Pods-MXMongoosed-dummy.m */; };
 		5A5216BF09F99C5088BB9BCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62AC9AD48BB325B7D8390FA /* Foundation.framework */; };
 		A276AF3C26623F4BECEE13CF /* Pods-MXMongoosed-MXMongoosed-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42530FA41B62CD83B9052C09 /* Pods-MXMongoosed-MXMongoosed-dummy.m */; };
-		B6F185C51ADA6055009457F0 /* mongoose.c in Sources */ = {isa = PBXBuildFile; fileRef = B6F185C11ADA6054009457F0 /* mongoose.c */; };
-		B6F185C61ADA6055009457F0 /* MongooseDaemon.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F185C21ADA6054009457F0 /* MongooseDaemon.m */; };
-		B6F185C81ADA6067009457F0 /* MongooseDaemon.h in Headers */ = {isa = PBXBuildFile; fileRef = B6F185C41ADA6055009457F0 /* MongooseDaemon.h */; };
+		B6F185CD1ADA6B1F009457F0 /* mongoose.c in Sources */ = {isa = PBXBuildFile; fileRef = B6F185C91ADA6B1F009457F0 /* mongoose.c */; };
+		B6F185CE1ADA6B1F009457F0 /* MongooseDaemon.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F185CA1ADA6B1F009457F0 /* MongooseDaemon.m */; };
 		DE91161B91AF9081FC571B71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62AC9AD48BB325B7D8390FA /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,10 +47,10 @@
 		A4B6A7A76F3D68B83B448FA7 /* Pods-MXMongoosed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXMongoosed.debug.xcconfig"; sourceTree = "<group>"; };
 		B0E0B4F289B73FC3AD2B0545 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B62AC9AD48BB325B7D8390FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B6F185C11ADA6054009457F0 /* mongoose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mongoose.c; path = Pod/Classes/mongoose.c; sourceTree = "<group>"; };
-		B6F185C21ADA6054009457F0 /* MongooseDaemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MongooseDaemon.m; path = Pod/Classes/MongooseDaemon.m; sourceTree = "<group>"; };
-		B6F185C31ADA6055009457F0 /* mongoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mongoose.h; path = Pod/Classes/mongoose.h; sourceTree = "<group>"; };
-		B6F185C41ADA6055009457F0 /* MongooseDaemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MongooseDaemon.h; path = Pod/Classes/MongooseDaemon.h; sourceTree = "<group>"; };
+		B6F185C91ADA6B1F009457F0 /* mongoose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mongoose.c; path = MXMongoosed/Classes/mongoose.c; sourceTree = "<group>"; };
+		B6F185CA1ADA6B1F009457F0 /* MongooseDaemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MongooseDaemon.m; path = MXMongoosed/Classes/MongooseDaemon.m; sourceTree = "<group>"; };
+		B6F185CB1ADA6B1F009457F0 /* mongoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mongoose.h; path = MXMongoosed/Classes/mongoose.h; sourceTree = "<group>"; };
+		B6F185CC1ADA6B1F009457F0 /* MongooseDaemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MongooseDaemon.h; path = MXMongoosed/Classes/MongooseDaemon.h; sourceTree = "<group>"; };
 		C436282B97475C2F0D879466 /* Pods-MXMongoosed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXMongoosed.release.xcconfig"; sourceTree = "<group>"; };
 		DE3B19AFF0687B3E4BE19143 /* Pods-MXMongoosed-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MXMongoosed-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -166,10 +165,10 @@
 		AD5D31BF712B592934A713FD /* MXMongoosed */ = {
 			isa = PBXGroup;
 			children = (
-				B6F185C11ADA6054009457F0 /* mongoose.c */,
-				B6F185C21ADA6054009457F0 /* MongooseDaemon.m */,
-				B6F185C31ADA6055009457F0 /* mongoose.h */,
-				B6F185C41ADA6055009457F0 /* MongooseDaemon.h */,
+				B6F185C91ADA6B1F009457F0 /* mongoose.c */,
+				B6F185CA1ADA6B1F009457F0 /* MongooseDaemon.m */,
+				B6F185CB1ADA6B1F009457F0 /* mongoose.h */,
+				B6F185CC1ADA6B1F009457F0 /* MongooseDaemon.h */,
 				05BFB8E4C211E382ADA5BBED /* Support Files */,
 			);
 			name = MXMongoosed;
@@ -183,7 +182,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6F185C81ADA6067009457F0 /* MongooseDaemon.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6F185C61ADA6055009457F0 /* MongooseDaemon.m in Sources */,
-				B6F185C51ADA6055009457F0 /* mongoose.c in Sources */,
+				B6F185CE1ADA6B1F009457F0 /* MongooseDaemon.m in Sources */,
+				B6F185CD1ADA6B1F009457F0 /* mongoose.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
