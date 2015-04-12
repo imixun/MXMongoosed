@@ -1,0 +1,14 @@
+PODS:
+  - MXMongoosed (0.1.0)
+
+DEPENDENCIES:
+  - MXMongoosed (from `../`)
+
+EXTERNAL SOURCES:
+  MXMongoosed:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MXMongoosed: 4fada6a76f37f3d0cd3fa9de1b48348720b5b3a7
+
+COCOAPODS: 0.35.0
